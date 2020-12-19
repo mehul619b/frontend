@@ -22,7 +22,7 @@ function App() {
           <button onClick={postFile} type="submit">Submit</button>
         </form>
         <br/>
-        {receivedFileName!=""? <label>FILENAME: {receivedFileName}</label>:""}
+        <label>FILENAME: {receivedFileName}</label>
       </div>
     </div>
   );
